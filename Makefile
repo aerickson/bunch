@@ -57,8 +57,7 @@ install-uv: clean
 	uv pip install .
 
 install-dev-uv: clean
-	uv pip install -e .
-	uv pip install -r requirements-dev.txt
+	uv pip install -e ".[dev]"
 
 build-uv: clean
 	uv pip install build

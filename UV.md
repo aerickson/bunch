@@ -35,14 +35,13 @@ uv pip install -e ".[dev]"
 # Install the package in development mode
 uv pip install -e .
 
-# Install dev dependencies
-uv pip install -r requirements-dev.txt
+# Install dev dependencies directly
+uv pip install -e ".[dev]"
 
 # Run tests
 pytest
 
 # Build the package
-uv pip install build
 python -m build
 ```
 
