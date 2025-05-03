@@ -24,9 +24,17 @@ True
 
 ## Installation
 
+With pip:
 ```bash
 pip install bunch
 ```
+
+With uv (faster installation):
+```bash
+uv pip install bunch
+```
+
+For more information on using UV with this project, see [UV.md](UV.md).
 
 
 Dictionary Methods

@@ -1,0 +1,39 @@
+# UV Configuration for bunch package
+# See https://github.com/astral-sh/uv for more information
+
+[uv]
+# Default virtual environment directory
+venv-dir = ".venv"
+
+# Index URL for package downloads (default PyPI)
+index-url = "https://pypi.org/simple"
+
+# Specify additional indices to look for packages
+# extra-index-urls = ["https://example.com/simple"]
+
+# Enable/disable colored output
+color = true
+
+# Enable/disable rich progress bars
+progress = true
+
+# Configure verbosity level (possible values: 0, 1, 2)
+verbosity = 1
+
+# Timeout settings
+connection-timeout = 30
+timeout = 60
+
+[uv.pip]
+# Configure default install behavior
+# editable = false
+# upgrade = false
+# index = true
+# only-binary = false
+# pre = false
+
+[uv.venv]
+# Use python3 by default for environments
+python = "python3"
+# Include system site packages
+system-site-packages = false
