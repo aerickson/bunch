@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bunch"
+dynamic = ["version"]
+description = "A dot-accessible dictionary (à la JavaScript objects)"
+readme = "README.md"
+authors = [
+    {name = "David Schoonover", email = "dsc@less.ly"}
+]
+license = {text = "MIT"}
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Software Development",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Utilities",
+    "License :: OSI Approved :: MIT License",
+]
+keywords = ["bunch", "dict", "mapping", "container", "collection"]
+requires-python = ">=3.7"
+
+[project.urls]
+Homepage = "https://github.com/dsc/bunch"
+"Bug Tracker" = "https://github.com/dsc/bunch/issues"
+
+[tool.setuptools]
+packages = ["bunch"]
+
+[tool.setuptools.dynamic]
+version = {attr = "bunch.__version__"}

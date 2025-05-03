@@ -1,6 +1,10 @@
 bunch
 =====
 
+[![Python Tests](https://github.com/dsc/bunch/actions/workflows/python-tests.yml/badge.svg)](https://github.com/dsc/bunch/actions/workflows/python-tests.yml)
+[![PyPI version](https://badge.fury.io/py/bunch.svg)](https://badge.fury.io/py/bunch)
+[![Python Versions](https://img.shields.io/pypi/pyversions/bunch.svg)](https://pypi.org/project/bunch/)
+
 Bunch is a dictionary that supports attribute-style access, à la JavaScript.
 
 ```py
@@ -18,7 +22,11 @@ True
 True
 ```
 
-*``bunch`` somehow still supports Python 2.5 (?!)*
+## Installation
+
+```bash
+pip install bunch
+```
 
 
 Dictionary Methods
