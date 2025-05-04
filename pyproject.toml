@@ -10,7 +10,7 @@ readme = "README.md"
 authors = [
     {name = "David Schoonover", email = "dsc@less.ly"}
 ]
-license = {text = "MIT"}
+license = "MIT"
 classifiers = [
     "Development Status :: 5 - Production/Stable",
     "Intended Audience :: Developers",
@@ -24,7 +24,6 @@ classifiers = [
     "Topic :: Software Development",
     "Topic :: Software Development :: Libraries",
     "Topic :: Utilities",
-    "License :: OSI Approved :: MIT License",
 ]
 keywords = ["bunch", "dict", "mapping", "container", "collection"]
 requires-python = ">=3.7"
